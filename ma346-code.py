@@ -91,9 +91,6 @@ if view_plot:
         options=['18-24', '25-29', '30-34', '35-39', '40-44', '45-49', '50-54', '55-59', '60-64', '65-69', '70-74', '75-79', '80 or older'],
         value=('18-24', '80 or older'))
     st.write('You selected ages between', start_age, 'and', end_age)
-    c = 
-    for op in options:
-        if 
     
     #create bar chart of percent with heart disease for each age category
     fig, ax = plt.subplots()
